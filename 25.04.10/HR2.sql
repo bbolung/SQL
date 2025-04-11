@@ -126,3 +126,5 @@ create table customers(
 
 select *
 from customers;
+
+commit;
