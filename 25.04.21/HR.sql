@@ -19,3 +19,6 @@ insert into product values(product_seq.nextval, 'Visual C++ MFC 윈도우 프로그래�
 insert into product values(product_seq.nextval, 'jQuery and jQuery Mobile : 이해하기 쉽게 풀어쓴', 25000, 'jquery.jpg', '소스 하나로 데스크탑과 모바일까지 HTML5와 함께 사용한다. 초보자들도 ...');
 
 commit;
+
+select *
+from product;
