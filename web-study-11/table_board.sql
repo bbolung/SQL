@@ -23,3 +23,8 @@ commit;
 select *
 from board
 order by num desc;
+
+-- Test
+select * from board where num = 6;
+commit;
+
