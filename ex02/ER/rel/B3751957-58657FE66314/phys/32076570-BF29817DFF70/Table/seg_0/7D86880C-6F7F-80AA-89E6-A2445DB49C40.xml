@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_BOARD" directorySegmentName="seg_0" id="7D86880C-6F7F-80AA-89E6-A2445DB49C40">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>0904E0C8-E44B-8A3C-78DC-EB160B10F5B0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>000A0E28-BA3D-FD5B-2682-9B169020F563</segment>
+<tableSpace>194D7CC2-48AA-487A-82F3-6AC390EEBAC0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGDATE" id="11EEC15C-6F7D-F965-EF39-62C090DE252C">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="WRITER" id="7F1A0F7C-9188-CFB2-A2D2-00D184328EE2">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BNO" id="92D99914-32DD-D816-BD9C-50C02F715E58">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="B522A72E-D951-714E-403D-64FF1640C0CE">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="C111B1A7-3F43-9110-500D-DF2F6B4F2FF1">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDATE" id="DC0BE298-7A7C-F5EA-830B-8D179532AC5E">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<defaultValue>sysdate    -- 수정일</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_BOARD" id="33A469AB-B7FC-E9B8-FBCE-761C90846F13">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>0904E0C8-E44B-8A3C-78DC-EB160B10F5B0</schemaObject>
+<segment>04F36A0F-42EA-4CA5-10CF-9B02CCA35A7E</segment>
+<tableSpace>194D7CC2-48AA-487A-82F3-6AC390EEBAC0</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_TBL_BOARD_TITLE" id="DA513F64-6A3E-7602-1C00-0146C91A2AB3">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<schemaObject>0904E0C8-E44B-8A3C-78DC-EB160B10F5B0</schemaObject>
+<segment>04F36A0F-42EA-4CA5-10CF-9B02CCA35A7E</segment>
+<tableSpace>194D7CC2-48AA-487A-82F3-6AC390EEBAC0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_BOARD" id="EF2CA455-C103-BCA4-4776-45975F1982BA">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<segment>04F36A0F-42EA-4CA5-10CF-9B02CCA35A7E</segment>
+<tableSpace>194D7CC2-48AA-487A-82F3-6AC390EEBAC0</tableSpace>
+<existingIndex>33A469AB-B7FC-E9B8-FBCE-761C90846F13</existingIndex>
+<indexSegment>04F36A0F-42EA-4CA5-10CF-9B02CCA35A7E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

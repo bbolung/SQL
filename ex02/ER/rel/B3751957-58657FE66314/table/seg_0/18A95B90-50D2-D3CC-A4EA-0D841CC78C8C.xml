@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A95B90-50D2-D3CC-A4EA-0D841CC78C8C" schemaObject="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="TBL_REPLY">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>TBL_REPLY</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RNO" id="3BD29B4F-01FA-9038-8253-21B4749F7F8D">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>RNO</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BNO" id="7A06DEDE-4272-81E3-B1B7-40CB040F6033">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>BNO</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4DA14F9-6CF2-AFC8-C2E6-EDEB778DFE1E" referredColumn="92D99914-32DD-D816-BD9C-50C02F715E58"/>
+</associations>
+</Column>
+<Column name="REPLY" id="44A32E40-03C9-B55E-53C7-4629E2B43D66">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>REPLY</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYER" id="59A40254-7A79-737B-751E-33276D67395A">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>REPLYER</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYDATE" id="B7F9F47A-40F9-6D0D-89FE-717C6E79682D">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>REPLYDATE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDATE" id="F7394FB5-0DE2-7FB5-FA8C-E01400DF1783">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_REPLY</sourceObjSchema>
+<sourceObjName>UPDATEDATE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BC4C06D-EDE2-CE8F-48EC-443BB85EC305" name="PK_REPLY">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>PK_REPLY</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD29B4F-01FA-9038-8253-21B4749F7F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7539942A-7C93-45B2-D516-6E474E8756A7" schemaObject="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="PK_REPLY">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>PK_REPLY</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD29B4F-01FA-9038-8253-21B4749F7F8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2D9CD0A-3CB1-E806-298A-B06507C3B118" name="FK_REPLY_BOARD">
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A06DEDE-4272-81E3-B1B7-40CB040F6033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D86880C-6F7F-80AA-89E6-A2445DB49C40" schemaObject="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="TBL_BOARD">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>TBL_BOARD</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BNO" id="92D99914-32DD-D816-BD9C-50C02F715E58">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>BNO</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="B522A72E-D951-714E-403D-64FF1640C0CE">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="C111B1A7-3F43-9110-500D-DF2F6B4F2FF1">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITER" id="7F1A0F7C-9188-CFB2-A2D2-00D184328EE2">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>WRITER</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="11EEC15C-6F7D-F965-EF39-62C090DE252C">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>REGDATE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDATE" id="DC0BE298-7A7C-F5EA-830B-8D179532AC5E">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>TBL_BOARD</sourceObjSchema>
+<sourceObjName>UPDATEDATE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate    -- 수정일</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF2CA455-C103-BCA4-4776-45975F1982BA" name="PK_BOARD">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>PK_BOARD</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92D99914-32DD-D816-BD9C-50C02F715E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA513F64-6A3E-7602-1C00-0146C91A2AB3" schemaObject="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="IDX_TBL_BOARD_TITLE">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>IDX_TBL_BOARD_TITLE</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B522A72E-D951-714E-403D-64FF1640C0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33A469AB-B7FC-E9B8-FBCE-761C90846F13" schemaObject="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="PK_BOARD">
+<sourceConnName>BOOK_EX</sourceConnName>
+<sourceObjSchema>BOOK_EX</sourceObjSchema>
+<sourceObjName>PK_BOARD</sourceObjName>
+<createdBy>M</createdBy>
+<createdTime>2025-05-12 06:53:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92D99914-32DD-D816-BD9C-50C02F715E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

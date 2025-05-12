@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0904E0C8-E44B-8A3C-78DC-EB160B10F5B0" name="BOOK_EX" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="B3751957-1E88-18F7-0504-58657FE66314" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="7D86880C-6F7F-80AA-89E6-A2445DB49C40" name="TBL_BOARD" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="B3751957-1E88-18F7-0504-58657FE66314" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="18A95B90-50D2-D3CC-A4EA-0D841CC78C8C" name="TBL_REPLY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="B3751957-1E88-18F7-0504-58657FE66314" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="D4DA14F9-6CF2-AFC8-C2E6-EDEB778DFE1E" name="FK_REPLY_BOARD" seqName="seg_0" containerID="18A95B90-50D2-D3CC-A4EA-0D841CC78C8C" refContainerID="7D86880C-6F7F-80AA-89E6-A2445DB49C40" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="B3751957-1E88-18F7-0504-58657FE66314" propertySourceId="7D86880C-6F7F-80AA-89E6-A2445DB49C40" propertyTargetId="18A95B90-50D2-D3CC-A4EA-0D841CC78C8C"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
