@@ -31,5 +31,9 @@ from tbl_reply;
 -- 전체 데이터 조회 sql문
 select * 
 from tbl_reply 
-where bno = 786442 
+order by rno desc;
+
+select * 
+from tbl_reply 
+where bno = 786442
 order by rno desc;
