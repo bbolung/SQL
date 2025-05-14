@@ -37,3 +37,9 @@ select *
 from tbl_reply 
 where bno = 786442
 order by rno desc;
+
+-- Test¸¦ À§ÇÑ ´ñ±Û Ãß°¡
+insert into tbl_reply(rno, bno, reply, replyer)
+values(seq_reply.nextval, 786442, '´ñ±Û test ÀÔ·Â', 'È«±æµ¿');
+
+commit;
