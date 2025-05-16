@@ -13,3 +13,5 @@ update TBL_BOARD set replycnt = (
 
 select * from tbl_board
 order by bno desc;
+
+commit;
