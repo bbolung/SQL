@@ -16,7 +16,7 @@ add CONSTRAINT pk_reply primary key(rno);
 
 -- bno : 외래키 설정(이름 : fk_reply_board)
 alter table tbl_reply
-add CONSTRAINT fk_reply_board FOREIGN key(bno) REFERENCES tbl_board(bno);
+add CONSTRAINT fk_reply_board FOREIGN key(bno) REFERENCES tbl_board(bno) on delete cascade;
 
 -- 내림차순으로 10개 데이터 조회
 select *
